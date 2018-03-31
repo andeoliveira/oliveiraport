@@ -1,0 +1,289 @@
+/*Fonte de Icones*/
+@font-face { 
+    font-family: 'JustVectorRegular';
+    font-weight: normal; 
+    font-style: normal;
+    src: url('../fonts/justvector-webfont.eot');
+    src: url('../fonts/justvector-webfont.eot?#iefix') format('eot'),
+         url('../fonts/justvector-webfont.woff') format('woff'),
+         url('../fonts/justvector-webfont.ttf') format('truetype'),
+         url('../fonts/justvector-webfont.svg#webfontmuk63VQd') format('svg');
+}
+
+/* ==========================================================================
+   Normatização CSS
+   ========================================================================== */
+html { 
+    font-size: 100%; 
+    -webkit-text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%; 
+}
+body {
+    font-size: 64.5%;
+    line-height: 1.5;
+    font-family: Lora, Georgia, "Times New Roman", Times, serif ;
+    margin: 0;
+    width: 100%;
+    color: #ecf0f1;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+p,ul,ol { 
+    font-size:.875em; 
+    line-height:160%; 
+}
+h1{
+    font-family: "Patua One", Georgia, serif;
+    font-size: 2.00em;
+}
+a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.6em;
+}
+a:hover {
+    text-decoration: underline;
+}
+#container {
+    width: 98%;
+    margin: 0 auto;
+}
+img,picture,video,embed {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+/*==================================CABEÇALHO====================================*/
+header {
+    background-color: #F3F3F3;
+    width: 100%;
+}
+.header-home {
+    margin: 0 auto;
+    width: 100%;
+    height: 60px;
+    border-bottom: 4px #f1c40f solid;
+}
+.logo {
+    top: 0;
+    float: left;
+}
+.logo p {
+    margin: 0;
+    color: #222;
+    font-size: 1.2em;
+    font-style: italic;
+}
+.nome {
+    color: #222;
+}
+nav {
+    float: right;
+    padding: 5px 10px 0 0;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul:hover {
+    cursor: pointer;
+}
+nav ul li {
+    font-size: 100%;
+    display: inline-block;
+    padding-right: 20px;
+}
+nav ul li a {
+    color: #3D3D3D;
+    font-size: 1.5em;  
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color:#333;
+}
+#menu-icon {
+    display: hidden;
+    width: 30px;
+    height: 30px;
+    background: url("../img/nav.png") center;
+}
+a:hover #menu-icon {
+    border-radius: 4px 4px 0 0;
+}
+h3 {
+    font-size: 18px;
+}
+/*=======================================CONTEÚDO===========================================*/
+.row {
+    margin-top: 18px;
+    width: 100%;
+    height:500px;
+    background-color: #fff; 
+    display: inline-block;
+}
+.foto-perfil {
+    width: 25%;
+    height: 500px;
+    float: left;
+}
+.resumo-perfil {
+    float: left;
+    margin-left: 10px;
+    width: 35%;
+    height: 500px;
+    color: #222;
+}
+.resumo-perfil p {
+    font-size: 1.6em;
+    line-height: 160%;
+    text-align: justify;
+}
+.tecnologias-perfil {
+    margin-left: 10px;
+    width: 30%;
+    height: 500px;
+    float: left;
+}
+.social {
+    padding:0;
+    list-style:none;
+}
+.social li { 
+    display:inline-block; 
+    margin-bottom: -3px; 
+    background-color: #eee;
+}
+.social li a {
+    display:block;
+    float:left;
+    line-height:90%;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'JustVectorRegular';
+    font-size:4em;
+    padding:.4em .4em .30em .4em;
+}
+.social li a:hover { 
+    background-color:#000; 
+}
+.social li a.facebook:hover {
+    background-color:#3c5fac;
+}
+.social li a.twitter:hover { 
+    background-color:#5ec3df; 
+}
+.social li a.flickr:hover { 
+    background-color:#FF0084; 
+}
+.social li a.rss:hover { 
+    background-color:#ff9900; 
+}
+.social li a.dribble:hover { 
+    background-color:#EA4C89; 
+}
+.social li a.lastfm:hover { 
+    background-color:#D51007; 
+}
+.social li a.linkedin:hover { 
+    background-color:#2089b5; 
+}
+.social li a.vimeo:hover { 
+    background-color:#0dadd6; 
+}
+.social li a.google:hover { 
+    background-color:#c63d2d; 
+}
+.social li a.forrst:hover { 
+    background-color:#5b9a68; 
+}
+.social li a.skype:hover { 
+    background-color:#00aff0; 
+}
+.social li a.picassa:hover { 
+    background-color:#ffd34e; 
+}
+.social li a.youtube:hover { 
+    background-color:#c8312b; 
+}
+.social li a.pinterest:hover { 
+    background-color:#cb2027; 
+}
+.social li a.tumblr:hover { 
+    background-color: #2C4762; 
+}
+.social li a.behance:hover { 
+    background-color: #3878F6; 
+}
+.social li a.blogger:hover { 
+    background-color: #fc9947; 
+}
+.social li a.delicious:hover { 
+    background-color: #3274d1; 
+}
+.social li a.digg:hover { 
+    background-color: #205891; 
+}
+.social li a.github:hover { 
+    background-color: #3c5fac; 
+}
+.social li a.wordpress:hover { 
+    background-color: #0083b3; 
+}
+.social li a.pinterest, .social li a.soundcloud { 
+    text-indent:-999em; min-width:.84em; background-position: center center; background-repeat: no-repeat; background-size: 30px 30px; 
+}
+.social li a.pinterest { 
+    background-image:url(../images/bckg/pinterest-icon.png); 
+}
+.social li a.pinterest:hover { 
+    background-image:url(../images/bckg/pinterest-icon-light.png); 
+}
+
+/*=======================================Media Query Tablet===========================================*/
+@media (max-width: 768px) {
+
+    p {
+        font-size: 100%;
+    }
+    header {
+        max-width: 100%;
+    }
+    #menu-icon {
+        display: inline-block;
+    }
+    nav ul, nav:active ul {
+        display: none;
+        z-index: 1000;
+        position: absolute;
+        padding: 10px;
+        background: #f1c40f;
+        right: 20px;
+        top:25px;
+        border: 1px solid #fff;
+        text-align: center;
+        border-radius: 2px 0 2px 2px;
+        width: 40%;
+    }
+    nav:hover ul {
+        display: block;
+    }
+    nav li {
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+    }
+    .foto-perfil {
+        width: 100%;
+    }
+    .resumo-perfil {
+        clear: left;
+        width: 100%
+    }
+    .tecnologias-perfil{
+        clear: left;
+        width: 100%;
+    }
+
+}
